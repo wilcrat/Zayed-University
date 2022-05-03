@@ -1,0 +1,147 @@
+* {
+  box-sizing: border-box;
+  max-width: 100%;
+  list-style-type: none;
+  text-decoration: none;
+  color: aliceblue;
+}
+@import url("https://fonts.googleapis.com/css2?family=Raleway&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Lato&family=Raleway&display=swap");
+
+body {
+  font-family: "Raleway", sans-serif;
+  width: 100vw;
+}
+.part1 {
+  width: 95vw;
+  display: flex;
+  justify-content: space-between;
+  margin-bottom: 20px;
+  margin-top: 20px;
+}
+#signin {
+  margin-top: 30px;
+  height: 38px;
+  padding: 10px 30px;
+  color: rgb(255, 255, 255);
+  font-weight: 500;
+  background-color: #c54b4b;
+  border-radius: 20px;
+  border: none;
+  transition: 0.3s;
+  cursor: pointer;
+}
+#signin:hover {
+  background-color: rgb(255, 255, 255);
+  border: 1px solid #c54b4b;
+}
+#signin a:hover {
+  color: #c54b4b;
+}
+#img1 {
+  margin-left: 30px;
+  width: 300px;
+  height: 100px;
+  object-fit: contain;
+}
+#imgslide {
+  height: 400px;
+  width: 100vw;
+  object-fit: cover;
+}
+.header {
+  display: flex;
+  justify-content: center;
+  margin: auto;
+  padding: 20px 0 20px 0;
+  width: 95vw;
+  margin-bottom: 20px;
+  text-align: center;
+  font-size: 15px;
+  color: white;
+  text-shadow: black 0.1em 0.1em 0.2em;
+
+  background: #c54b4b;
+  box-shadow: 0 8px 32px 0 rgba(31, 38, 135, 0.37);
+  backdrop-filter: blur(4px);
+  -webkit-backdrop-filter: blur(4px);
+  border-radius: 10px;
+  border: 1px solid rgba(255, 255, 255, 0.18);
+}
+.header li {
+  padding: 0 20px 0 20px;
+  transition: 0.2s;
+}
+.header li a:hover {
+  color: aqua;
+}
+
+.imageslidediv {
+  padding-right: 20px;
+  padding-left: 20px;
+  width: 95vw;
+  margin: auto;
+  margin-bottom: 20px;
+  box-shadow: 0 8px 32px 0 rgba(31, 38, 135, 0.37);
+  border: 1px solid rgba(255, 255, 255, 0.18);
+}
+
+.container1 {
+  padding: 20px 20px 20px 20px;
+  width: 95vw;
+  height: auto;
+  margin: auto;
+  backdrop-filter: blur(16px) saturate(180%);
+  -webkit-backdrop-filter: blur(16px) saturate(180%);
+  background-color: rgba(0, 0, 0, 0.64);
+  border-radius: 12px;
+  border: 1px solid rgba(255, 255, 255, 0.125);
+  font-size: 15px;
+  line-height: 5vh;
+}
+
+.imageslidediv h4 {
+  font-weight: 300;
+  color: rgb(0, 0, 0);
+  text-shadow: rgb(2, 73, 114) 0.1em 0.06em 0.2em;
+}
+
+section {
+  position: absolute;
+  bottom: 20%;
+  left: 50%;
+  transform: translateX(-50%);
+  font-size: 50px;
+}
+
+/*Slide Show*/
+.mySlides {
+  display: none;
+}
+
+.footer {
+  padding-right: 20px;
+  padding-left: 20px;
+  width: 95vw;
+  margin: auto;
+  margin-top: 20px;
+  box-shadow: 0 8px 32px 0 rgba(31, 38, 135, 0.37);
+  border: 1px solid rgba(255, 255, 255, 0.18);
+}
+
+.help {
+  padding: 10px;
+  width: 100%;
+  font-size: 15px;
+  margin: auto;
+  background-color: #c54b4b;
+  margin-top: 20px;
+  box-shadow: 0 8px 32px 0 rgba(31, 38, 135, 0.37);
+  border: 1px solid rgba(255, 255, 255, 0.18);
+}
+
+.lastsection {
+  padding: 10px 0 10px 0;
+  color: black;
+  font-size: 15px;
+}
